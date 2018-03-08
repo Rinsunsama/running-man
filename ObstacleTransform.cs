@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-public class Zhangai_Transform : MonoBehaviour
+public class ObstacleTransform : MonoBehaviour
 {
     int Direction = Random.Range(0, 2);
     float Speed = Random.Range(4, 10);

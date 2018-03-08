@@ -2,9 +2,9 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class Daojishi : MonoBehaviour
+public class TimeCountDown : MonoBehaviour
 {
-    private float daoJiShiTime = 0;
+    private float CountDownTime = 0;
     public Image filledImage;
     // Use this for initialization
     void Start()
@@ -15,14 +15,14 @@ public class Daojishi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (daoJiShiTime <= 5f)
+        if (CountDownTime <= 5f)
         {
-            filledImage.fillAmount = 1 - daoJiShiTime / 5;
-            daoJiShiTime += Time.deltaTime;
+            filledImage.fillAmount = 1 - CountDownTime / 5;
+            CountDownTime += Time.deltaTime;
         }
         else
         {
-            daoJiShiTime = 0;
+            CountDownTime = 0;
         }
     }
 }

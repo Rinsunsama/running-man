@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class changjingManager : MonoBehaviour
+public class ScenesManager : MonoBehaviour
 {
     int lajihouxu;
     static int zhangaiNumber = 20;

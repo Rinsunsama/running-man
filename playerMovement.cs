@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-public class playerMovement : MonoBehaviour, KinectGestures.GestureListenerInterface
+public class PlayerMovement : MonoBehaviour, KinectGestures.GestureListenerInterface
 {
     public float n = 300f;
     public static bool RunDet = false;
